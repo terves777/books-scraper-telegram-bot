@@ -18,12 +18,10 @@ from dotenv import load_dotenv
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# Пускаем весь трафик бота напрямую через твой Happ (порт 10808)
 session = AiohttpSession(proxy="socks5://127.0.0.1:10808")
 bot = Bot(token=BOT_TOKEN, session=session)
 dp = Dispatcher()
 
-# Кнопка меню
 menu_kb = ReplyKeyboardMarkup(
     keyboard=[[KeyboardButton(text="📥 Спарсить каталог в CSV")]],
     resize_keyboard=True,
