@@ -19,5 +19,4 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/твой_ник/web_catalog_parser_bot.git](https://github.com/твой_ник/web_catalog_parser_bot.git)
-   cd web_catalog_parser_botpython -m venv venv
+   git clone https://https://github.com/terves777/books-scraper-telegram-bot
