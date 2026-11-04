@@ -18,5 +18,19 @@
 ## 🛠 Установка и запуск
 
 1. **Клонируйте репозиторий:**
-   ```bash
-   git clone https://https://github.com/terves777/books-scraper-telegram-bot
+```bash
+git clone https://github.com/terves777/books-scraper-telegram-bot.git
+cd books-scraper-telegram-bot
+```
+
+2. **Установите зависимости:**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Настройте окружение:** скопируйте `.env.example` в `.env` и впишите токен бота.
+
+4. **Запустите:**
+```bash
+python bot.py
+```
